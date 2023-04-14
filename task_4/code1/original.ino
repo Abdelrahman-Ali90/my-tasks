@@ -15,7 +15,7 @@ void loop() {
   }
 
   for(j=255;j>0;j--){
-   analoglWrite(led,j);
+   analogWrite(led,j);
     delay(10);
   }
   
