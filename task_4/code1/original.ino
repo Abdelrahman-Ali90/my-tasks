@@ -3,7 +3,7 @@ int i=0;
 int j=0;
 
 void setup() {
- 
+   Serial.begin(9600);
   pinMode(led,OUTPUT);
    
 }
