@@ -1,4 +1,4 @@
-rom math import *
+from math import *
 
 class Circle:
     def __init__(self, radius):
