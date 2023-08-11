@@ -16,7 +16,6 @@ side1 = float(input("Enter the length of side 1: "))
 side2 = float(input("Enter the length of side 2: "))
 angle = float(input("Enter the angle between the sides in degrees: "))
 
-
 parallelogram = Parallelogram(side1, side2, angle)
 area = parallelogram.calculate_area()
 print("The area of the parallelogram is:", area)
