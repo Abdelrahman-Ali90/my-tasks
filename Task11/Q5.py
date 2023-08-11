@@ -1,12 +1,12 @@
-n = int(input("Enter the number: "))
-numbers = input("Enter the array :")
+def sum(arr, size):
+    sum = 0
+
+    for i in range(size):
+        sum += int(arr[i])
+
+    return sum
 
 
-numbers = [int(digit) for digit in numbers]
-sum = 0
-for i in range(n):
-    sum += numbers[i]
-
-
-print("Array of digits:", numbers)
-print("Sum of digits:", sum)
+size = int(input("Enter the size: "))
+arr = input("Enter array array: ")
+print("The sum of the array = ",sum(arr , size))
