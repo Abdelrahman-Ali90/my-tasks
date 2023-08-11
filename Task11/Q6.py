@@ -21,7 +21,6 @@ def second_largest_smallest(numbers):
     
     return second_smallest, second_largest
 
-
 numbers = [5, 7, 7, 8, 8, 8, 10]
 
 second_smallest, second_largest = second_largest_smallest(numbers)
